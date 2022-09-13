@@ -6,21 +6,20 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "parcel build",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cobidev/simplefolio"
+    "url": "git+https://github.com/davidiqm/portfolio-david"
   },
   "keywords": [],
-  "author": "Jacobo Martinez",
+  "author": "David Quime",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cobidev/simplefolio/issues"
-  },
-  "homepage": "https://github.com/cobidev/simplefolio#readme",
+  "homepage": "https://davidiqm.github.io/portfolio-david/",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.0.1",
+    "gh-pages": "^4.0.0",
     "parcel": "^2.0.1",
     "prettier": "^2.4.1"
   },
