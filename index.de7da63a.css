@@ -10834,9 +10834,6 @@ section {
     padding-top: 5rem;
   }
 }
-#projects .project-wrapper {
-  margin-bottom: 15rem;
-}
 @media (max-width: 37.5em) {
   #projects .project-wrapper {
     margin-bottom: 0rem;
@@ -10903,7 +10900,11 @@ section {
 #preparacion {
   margin-bottom: 150px;
 }
-.experiencia-wrapper {
+#preparacion .experiencia-wrapper {
   text-align: start;
+}
+#preparacion .elemento-lista {
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 /*# sourceMappingURL=index.de7da63a.css.map */
